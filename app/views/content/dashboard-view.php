@@ -9,7 +9,7 @@
     <div class="p-4 rounded-lg dark:border-gray-700">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
             <div class="p-6 bg-blue-500 rounded-lg dark:bg-gray-800 hover:bg-blue-700">
-                <a href="toners">
+                <a href="<?= APP_URL?>toners/">
                     <div class="">
                         <h1 class="mb-2 text-3xl font-bold tracking-tight text-white dark:text-white">
                             <i class="fa-solid fa-fill-drip text-3xl text-white"></i>
@@ -21,7 +21,7 @@
             </div>
 
             <div class="p-6 bg-green-500 rounded-lg hover:bg-green-800">
-                <a href="toners">
+                <a href="<?= APP_URL?>printers/">
                     <div class="">
                         <h1 class="mb-2 text-3xl font-bold tracking-tight text-white dark:text-white">
                             <i class="fa-solid fa-print text-3xl text-white"></i>
