@@ -24,6 +24,7 @@ if (isset($_GET['views'])) {
 
     use app\controllers\viewsController;
 
+    // VIEWS CONTROLLER INDEX
     $viewsController =  new viewsController();
     $views = $viewsController->obtainViewsController($url[0]);
 
@@ -34,7 +35,10 @@ if (isset($_GET['views'])) {
         require_once $views;
     }
     
+    // MODAL IMPORTS
     require_once "./app/views/inc/components/deleteUsersModal.php";
+    
+    // SCRIPTS IMPORTS
     require_once "./app/views/inc/script.php";
     ?>
 
