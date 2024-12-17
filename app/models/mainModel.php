@@ -61,6 +61,12 @@
         }
 
         protected function saveData($table, $data){
+            $query = "INSERT INTO $table(";
+
+            $C = 0;
+            foreach($data as $dataKey){
+                
+            };
             
         }
 

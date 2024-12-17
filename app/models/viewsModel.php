@@ -6,7 +6,7 @@
         
         protected function obtainViewsModel($views){
 
-            $blankList = ["dashboard", "toners", "printers", "rotation", "users"];
+            $blankList = ["dashboard", "toners", "printers", "rotation", "reload", "users"];
 
             if (in_array($views, $blankList)){
                 if (is_file("./app/views/content/".$views."-view.php")) {
