@@ -4,9 +4,15 @@
             <i class="fa-solid fa-users"></i>
             Lista de Usuarios
         </h1>
-        <hr class="w-full my-2">
     </div>
+    <hr class="w-full my-1">
 
+    <div class="w-full flex justify-end items-center my-4">
+        <button data-modal-target="addUsers-modal" data-modal-toggle="addUsers-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+            <i class="fa-solid fa-user-plus"></i>
+            Añadir Usuarios
+        </button>
+    </div>
 
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500">
@@ -42,7 +48,7 @@
                             <i class="fa-solid fa-eye"></i>
                         </button>
                         <button type="button" class="text-white bg-yellow-300 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-full text-base p-2.5 text-center inline-flex items-center me-2">
-                        <i class="fa-solid fa-pen-to-square"></i>
+                            <i class="fa-solid fa-pen-to-square"></i>
                         </button>
                         <button type="button" data-modal-target="delete-modal" data-modal-toggle="delete-modal" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-full text-base p-2.5 text-center inline-flex items-center me-2">
                             <i class="fa-solid fa-trash"></i>

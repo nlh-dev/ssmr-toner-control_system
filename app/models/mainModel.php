@@ -60,14 +60,14 @@
             
         }
 
-        protected function saveData($table, $data){
-            $query = "INSERT INTO $table(";
+        // protected function saveData($table, $data){
+        //     $query = "INSERT INTO $table(";
 
-            $C = 0;
-            foreach($data as $dataKey){
+        //     $C = 0;
+        //     foreach($data as $dataKey){
                 
-            };
+        //     };
             
-        }
+        // }
 
     }
