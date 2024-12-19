@@ -36,11 +36,12 @@ if (isset($_GET['views'])) {
     }
     
     // MODAL IMPORTS
-    require_once "./app/views/inc/components/deleteUsersModal.php";
-    require_once "./app/views/inc/components/addUsersModal.php";
+    require_once "./app/views/inc/components/modals/deleteUsersModal.php";
+    require_once "./app/views/inc/components/modals/addUsersModal.php";
     
     // SCRIPTS IMPORTS
     require_once "./app/views/inc/script.php";
+    
     ?>
 
 </body>

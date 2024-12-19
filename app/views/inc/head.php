@@ -1,3 +1,4 @@
+<!-- META -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- EXTERNAL IMPORTS -->
@@ -6,4 +7,5 @@
 <!-- APP URL IMPORTS -->
 <link rel="stylesheet" href="<?= APP_URL; ?>app/views/css/global.css">
 <link rel="stylesheet" href="<?= APP_URL; ?>app/views/css/all.min.css">
+<link rel="icon" href="<?= APP_URL; ?>app/views/img/ssmr-3.ico" type="image/x-icon">
 <title><?= APP_NAME ?></title>

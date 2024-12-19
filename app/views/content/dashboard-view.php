@@ -8,7 +8,7 @@
     </div>
     
     <div class="rounded-lg dark:border-gray-700">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <div class="p-6 bg-blue-500 rounded-lg dark:bg-gray-800 hover:bg-blue-700">
                 <a href="<?= APP_URL?>toners/">
                     <div class="">
