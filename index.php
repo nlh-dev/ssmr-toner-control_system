@@ -16,6 +16,7 @@ if (isset($_GET['views'])) {
 <html lang="es">
 
 <head>
+    <!-- HEAD IMPORTS -->
     <?php require_once "./app/views/inc/head.php"; ?>
 </head>
 
@@ -36,14 +37,12 @@ if (isset($_GET['views'])) {
     }
     
     // MODAL IMPORTS
-    require_once "./app/views/inc/components/modals/deleteUsersModal.php";
     require_once "./app/views/inc/components/modals/addUsersModal.php";
     
     // SCRIPTS IMPORTS
     require_once "./app/views/inc/script.php";
     
     ?>
-
 </body>
 
 </html>
