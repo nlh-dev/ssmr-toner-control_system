@@ -1,9 +1,13 @@
 <div class="p-4 sm:ml-64">
     <div class="p-4">
-        <h1 class="text-gray-600 font-bold text-2xl">
-            <i class="fa-solid fa-shoe-prints"></i>
-            Control de Rotacion
-        </h1>
+        <div class="flex items-center">
+        <svg class="w-8 h-8 text-gray-600 mr-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3" />
+            </svg>
+            <h1 class="text-gray-600 font-bold text-2xl">
+                Control de Rotacion
+            </h1>
+        </div>
     </div>
     <hr class="w-full my-1">
 
